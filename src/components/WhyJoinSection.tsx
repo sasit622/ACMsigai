@@ -28,7 +28,7 @@ const WhyJoinSection = () => {
       border: "border-deep-purple/20"
     },    {
       icon: Target,
-      title: "Internship Oppertunities",
+      title: "Internship  Opportunities",
       description: "Get Internship oppertunities in Startup Companies",
       color: "text-neon-cyan",
       bg: "bg-neon-cyan/10",
@@ -44,8 +44,8 @@ const WhyJoinSection = () => {
     },
     {
       icon: Zap,
-      title: "Career Opportunities",
-      description: "Get the support and resources needed to take your startup to the next level ,Helps to improve marks in placement matrics",
+      title: "ACM membership",
+      description: "Top participants get a chance to win ACM student membership for one year",
       color: "text-neon-cyan",
       bg: "bg-neon-cyan/10",
       border: "border-neon-cyan/20"

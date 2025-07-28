@@ -59,7 +59,7 @@ const AboutSection = () => {
               </div>
 
               <div className="bg-card border border-accent/10 rounded-lg p-6 hover:border-accent/30 transition-smooth">
-              <a href="https://www.instagram.com/srmsigai?igsh=MWtlbWZmYWx6bG1mYw==" target="_blank" rel="noopener noreferrer">
+              <a href="https://srm-acm-sigai.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAafzZGCaQd7Y5ZU3E-t3TGsRS1gPuvB6ORwBIxUqH7gXy2nribnComAnfphqgA_aem_16qqsD-JnExHjtZcooDTTg" target="_blank" rel="noopener noreferrer">
                 <img src="/acm.jpg" alt="Startups" className="w-10 h-10 mb-4" />
                 </a>
                 <h3 className="font-semibold mb-2">ACM SIGAI</h3>
@@ -67,7 +67,9 @@ const AboutSection = () => {
               </div>
 
               <div className="bg-card border border-primary/10 rounded-lg p-6 hover:border-primary/30 transition-smooth">
+                <a href="https://srm-acm-sigai.vercel.app/past-events">
                 <Cpu className="w-10 h-10 mb-4" />
+                </a>
                 <h3 className="font-semibold mb-2">PAST EVENTS</h3>
                 <p className="text-sm text-muted-foreground">Placement Talk, Codespring, CogniHack1.0, DataQuest, DataSprint,Hackgrid</p>
               </div>

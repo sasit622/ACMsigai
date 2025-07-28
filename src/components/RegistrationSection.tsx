@@ -82,7 +82,7 @@ const RegistrationSection = () => {
               
               <Button variant="default" size="lg" className="w-full">
                 <ExternalLink className="w-4 h-4 mr-2" />
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLScdNB1I7a_GFTi7hdi3ERFfotKT5N3rI_jOMC7oMUqQpXgJBw/viewform'>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScLjx08CU3yCmNXe2grH3llfJYx5mOMN2kMf4x9H3q8d4ZsRA/viewform'>
                 Register for SDG Solve-a-thon
                 </a>
               </Button>

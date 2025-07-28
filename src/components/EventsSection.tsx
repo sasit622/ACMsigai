@@ -143,7 +143,6 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            {/* VentureVerse '25 */}
             <Card className="shadow-card hover:shadow-glow transition-all duration-300 border-l-4 border-l-secondary">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-heading">
@@ -204,7 +203,6 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            {/* Third Event - Workshop Series */}
             <Card className="shadow-card hover:shadow-glow transition-all duration-300 border-l-4 border-l-accent">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-heading">

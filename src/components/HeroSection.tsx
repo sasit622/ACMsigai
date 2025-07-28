@@ -30,9 +30,9 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-20 max-w-6xl mx-auto px-4 text-center">
-        <div className="space-y-8">
+        <div className="pt-10 space-y-8">
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="mt-10 text-5xl md:text-7xl font-bold mb-6">
             <span className="hero-text">InnoTech 2025</span>
           </h1>
            <Badge variant="secondary" className="px-8 py-2 text-sm font-medium">
