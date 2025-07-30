@@ -29,7 +29,7 @@ const WhyJoinSection = () => {
     },    {
       icon: Target,
       title: "Internship  Opportunities",
-      description: "Get Internship oppertunities in Startup Companies",
+      description: "Get Internship Opportunities in Startup Companies",
       color: "text-neon-cyan",
       bg: "bg-neon-cyan/10",
       border: "border-neon-cyan/20"
