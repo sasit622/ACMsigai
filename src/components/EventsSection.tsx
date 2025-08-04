@@ -84,8 +84,8 @@ const Index = () => {
                   <Code className="w-8 h-8 text-primary" />
                   InnoTech 2025
                 </CardTitle>
-                <p className="text-muted-foreground font-body">24-Hours
-                  Hackathon And Ideathon </p>
+                <p className="text-muted-foreground font-body">
+                  Hackathon(24-Hours) And Ideathon(Startup) </p>
               </CardHeader>
               <CardContent id="track"className="space-y-6">
                 <div className="space-y-4">
@@ -97,6 +97,7 @@ const Index = () => {
                         <li>• Track 1: Smart city & Environment </li>
                         <li>• Track 2: Agriculture </li>
                         <li>• Track 3: Transportation</li>
+                        <li>. Track 4: Health care and Innovation</li>
                         <li>• Track 5: IoT & Automation Hardware</li>
                       </ul>
                     </div>
@@ -142,6 +143,70 @@ const Index = () => {
                 </div>
               </CardContent>
             </Card>
+            <Card className="shadow-card hover:shadow-glow transition-all duration-300 border-l-4 border-l-accent">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-heading">
+                  <Award className="w-8 h-8 text-accent" />
+                  SDG Solve-a-thon
+                </CardTitle>
+                <p className="text-muted-foreground font-body">3-Round Hackathon</p>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <Calendar className="w-5 h-5 text-accent" />
+                    <div>
+                      <p className="font-semibold">Dates:</p>
+                      <p className="text-sm text-muted-foreground">21–22 Aug 2025</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3">
+                    <Clock className="w-5 h-5 text-accent" />
+                    <div>
+                      <p className="font-semibold">Duration:</p>
+                      <p className="text-sm text-muted-foreground">24-Hours</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3">
+                    <MapPin className="w-5 h-5 text-accent" />
+                    <div>
+                      <p className="font-semibold">Mode:</p>
+                      <p className="text-sm text-muted-foreground">Offline</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3">
+                    <Users className="w-5 h-5 text-accent" />
+                    <div>
+                      <p className="font-semibold">Topics:</p>
+                      <p className="text-sm text-muted-foreground"
+                        onClick={() => {
+    const trackSection = document.getElementById("track");
+    if (trackSection) {
+      trackSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }}>Tracks</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3">
+                    <Trophy className="w-5 h-5 text-accent" />
+                    <div>
+                      <p className="font-semibold">Benefits:</p>
+                      <p className="text-sm text-muted-foreground">Cash Price,Participation Certificate</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-accent/10 p-4 rounded-lg">
+                  <p className="text-sm font-semibold text-center text-accent">
+                    "Learn, network, and prepare for the main events!"
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
 
             <Card className="shadow-card hover:shadow-glow transition-all duration-300 border-l-4 border-l-secondary">
               <CardHeader>
@@ -149,7 +214,7 @@ const Index = () => {
                   <Rocket className="w-8 h-8 text-secondary" />
                   VentureVerse '25
                 </CardTitle>
-                <p className="text-muted-foreground font-body">Ideathon</p>
+                <p className="text-muted-foreground font-body">Ideathon(Startup)</p>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="space-y-4">
@@ -203,70 +268,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="shadow-card hover:shadow-glow transition-all duration-300 border-l-4 border-l-accent">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-2xl font-heading">
-                  <Award className="w-8 h-8 text-accent" />
-                  SDG Solve-a-thon
-                </CardTitle>
-                <p className="text-muted-foreground font-body">3-Round Hackathon</p>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <Calendar className="w-5 h-5 text-accent" />
-                    <div>
-                      <p className="font-semibold">Dates:</p>
-                      <p className="text-sm text-muted-foreground">21–22 Aug 2025</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Clock className="w-5 h-5 text-accent" />
-                    <div>
-                      <p className="font-semibold">Duration:</p>
-                      <p className="text-sm text-muted-foreground">24-Hours</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <MapPin className="w-5 h-5 text-accent" />
-                    <div>
-                      <p className="font-semibold">Mode:</p>
-                      <p className="text-sm text-muted-foreground">Offline</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Users className="w-5 h-5 text-accent" />
-                    <div>
-                      <p className="font-semibold">Topics:</p>
-                      <p className="text-sm text-muted-foreground"
-                        onClick={() => {
-    const trackSection = document.getElementById("track");
-    if (trackSection) {
-      trackSection.scrollIntoView({ behavior: "smooth" });
-    }
-  }}>Tracks</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Trophy className="w-5 h-5 text-accent" />
-                    <div>
-                      <p className="font-semibold">Benefits:</p>
-                      <p className="text-sm text-muted-foreground">Certificates & Cash Price</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-accent/10 p-4 rounded-lg">
-                  <p className="text-sm font-semibold text-center text-accent">
-                    "Learn, network, and prepare for the main events!"
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+            
           </div>
         </div>
       </section>

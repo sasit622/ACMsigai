@@ -45,7 +45,7 @@ const RegistrationSection = () => {
                   <Calendar className="w-5 h-5 text-electric-blue" />
                   <div>
                     <span className="font-semibold">Event Dates: </span>
-                    <span>20 August 2025</span>
+                    <span>21-22 August 2025</span>
                   </div>
                 </div>
                 
